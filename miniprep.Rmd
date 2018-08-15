@@ -1,0 +1,132 @@
+---
+title: "Plasmid miniprep by alkaline lysis"
+author: "David J. H. Shih"
+date: "`r Sys.Date()`"
+output:
+  tufte::tufte_handout:
+    citation_package: natbib
+    latex_engine: xelatex
+  tufte::tufte_book:
+    citation_package: natbib
+    latex_engine: xelatex
+  tufte::tufte_html: default
+bibliography: bibtex/basic.bib
+---
+
+This protocol extracts plasmid DNA from a miniculture of bacteria using
+the alkaline lysis method [@birnboim79]. The steps are simplified to reduce
+time required to prepare plasmids suitable for restriction digest diagnosis.
+Use maxiprep for cleaner extract.
+
+----
+
+# Materials
+
+## Reagents
+- Resuspension buffer (50 mM Tris-HCl pH 8.0, 10 mM EDTA, 100 ng/mL RNase A)
+- Alkaline lysis buffer (0.2 M NaOH, 1% SDS)
+- Neutralization buffer (3 M potassium acetate, 2 M acetic acid)
+- Phenol:chloroform:isoamyl alcohol (25:24:1 v/v)
+- 70% ethanol
+- isopropanol
+
+## Equipment
+- 1.5 mL or 2.0 mL tubes
+- Microcentrifuge
+
+## Preparation
+
+- **Resuspension buffer** (store at 4 $^\circ$C). For 100 mL,
+    - 5 mL of 1 M Tris-HCl, pH 8.0
+    - 200 $\mu$L of 0.5 M EDTA
+    - 500 $\mu$L of 20 mg/mL RNase A
+    - 94.3 mL water
+- **Alkaline lysis buffer**. For each mL of fresh solution,
+    - 100 $\mu$L of 10% SDS
+    - 50 $\mu$L of 4 M NaOH
+    - 850 $\mu$L water
+- **Neutralization buffer**. For 100 mL,
+    - 60 mL of 5 M potassium acetate
+    - 11.5 mL glacial acetic acid (17 M)
+    - 28.5 mL water
+
+\newpage
+
+# Procedure
+
+## Akaline lysis
+
+1. Pellet 1.5 mL of bacterial culture at 14 000 g for 30 s.^[Pellet another
+1.5 mL of culture if growth is low.]
+
+2. Resuspend pellet completely in 100 $\mu$L resuspension buffer. Ensure
+no clumps remain.
+
+3. Add 100 $\mu$L alkaline lysis buffer. Mix *gently* by inverting 5 
+times.^[Vigorous vortexing may shear genomic DNA and prevent its subsequent
+precipitation and removal.]
+
+2. Add 120 $\mu$L neutralization buffer. Mix *gently* by inverting 5 times.
+Incubate at room temperature for 3 min.
+
+3. Remove debris^[containing proteins, lipids, and other contaminants] by 
+centifugation at 14 000 g for 1 min.
+Place pipette tip at bottom of tube^[Short centrifugation should collect the 
+debris on the *side* wall.]
+and aspirate supernatant to transfer to a new tube.
+Avoid collecting the white precipitate.
+
+## Protein contaminant removal
+
+5. Add 200 $\mu$L of phenol:chloroform:isoamyl alcohol solution. Vortex.
+
+6. Centrifuge at 16 000 g for 2 min. Transfer the upper, aqueous phase to a new
+tube.^[For cleaner extract, repeat phenol-chloroform clean-up until interphase 
+no longer appears, followed by 2 rounds of chloroform:isoamyl alcohol (24:1 v/v) 
+clean-up.]
+
+## DNA precipitation
+
+7. Add 300 $\mu$L of isopropanol to preciptate the DNA. Mix well.
+Incubate at room temperature for 1 min.
+
+8. Pellet DNA at 16 000 g for 1 min.^[Pellet should be 1--2 mm in diameter.
+Larger pellet suggests RNA or genomic DNA contamination.]
+Discard supernatant immediately.
+
+9. Add 500 $\mu$L of 70% ethanol. Mix by inverting. Pellet at 16 000 g for 1 min.
+
+10. Discard supernant. Aspirate residual liquid. Dry pellet for 10 min with
+cap open.
+
+11. Dissolve DNA in 20 $\mu$L water.^[DNA yield should be 20--40 $\mu$g.]
+
+12. Use 4 $\mu$L for gel electrophoresis or restriction digest.
+
+
+\newpage
+
+# Troubleshooting
+
+- **Low molecular weight smear**. Extract is likely contaminated with RNA.
+Possible remedies include:
+    - Add fresh RNase A to resuspension buffer.
+    - Incubate neutralized solution longer at room temperature.
+    
+- **High molecular weight smear**. Extract is likely contaminated with DNA.
+Avoid vigorous mixing during alkaline lysis.
+    
+- **Unrealistically high DNA yield**. Extract is likely contaminated with RNA 
+and/or genomic DNA.
+
+- **No electrophoresis bands after restriction digest**. If the extract is
+contaminated with DNase (e.g. endA), incubation at 37 $^\circ$C in restriction 
+digest buffer will permit DNase to degrade DNA. Do not skip the phenol-chloroform
+clean-up; repeat phenol-chloroform until the interphase disappears.
+
+
+# Timing
+
+Total of 30--45 min for 2--6 samples.
+
+----
