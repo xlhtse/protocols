@@ -78,7 +78,7 @@ EDTA to 98.8 mL of nuclease-free water.
 
 # Procedure
 
-## Akaline lysis
+## Akaline lysis (1.5--2.0 h)
 
 1. Pellet 50 mL of bacterial culture at 1400 g for 10 min.^[Speed is equivalent
 to 3000--4000 rpm using centrifuge with 10--15 cm rotor.]
@@ -89,9 +89,7 @@ no clumps remain.
 3. Add 2.5 mg lysozyme (50 $\mu$L).
 Incubate on ice for 30 min.^[Meanwhile, prepare fresh alkaline lysis buffer.]
 
-4. Add 2.0 mL alkaline lysis buffer. Mix *gently*.^[Vigorous 
-vortexing may shear genomic DNA and prevent its subsequent
-precipitation and removal.]
+4. Add 2.0 mL alkaline lysis buffer. Mix *gently*.^[**Caution**: Do not vortex.]
 Incubate on ice for 10 min.
 
 5. Add 1.5 mL neutralization buffer. Mix *gently*. 
@@ -99,10 +97,9 @@ Split solution into $4\times$ 1.5 mL tubes (~1 mL each).
 Incubate on ice for 10 min.
 
 6. Remove debris by centifugation at 14 000 g for 1 min.
-Place pipette tip at bottom of tube^[Short centrifugation should collect the
-debris on the *side* wall.]
+Place pipette tip at the bottom of tube^[Short centrifugation should collect the
+debris on the *side* wall. Avoid collecting the white precipitate.]
 and aspirate supernatant to transfer to a new tube.
-Avoid collecting the white precipitate.
 Divide the supernatant into 6 tubes ($\le 800$ $\mu$L each).
 
 7. Precipitate the nucleic acids with 600 $\mu$L isopropanol. Mix well.
@@ -116,12 +113,13 @@ Pellet at 16 000 g for 30 s.
 10. Dissolve pellets in $6\times$ 100 $\mu$L of Tris-EDTA buffer.
 Combine solutions together (600 $\mu$L total).
 
-## Removal of RNA contaminant
+## Removal of RNA contaminant (1.0--1.5 h)
 
 11. Preciptate large RNA by adding 600 $\mu$L of 5 M LiCl. Mix well.
 Incubate on ice for 5 min.
 
-12. Pellet RNA contaminant at 16 000 g for 5 min.
+12. Pellet RNA contaminant at 16 000 g for 5 min.^[**Caution**:
+DNA is in the supernatant. Do not discard.]
 Transfer supernatant into 2 tubes (~0.6 mL each).
 
 13. Precipitate nucleic acids with 600 $\mu$L of isopropanol. Mix well.
@@ -137,7 +135,7 @@ Combine (400 $\mu$L total).
 Add 5 $\mu$L of 20 mg/mL RNase A to digest remaining RNA.
 Incubate at room temperature for 20 min.
 
-## Removal of protein contaminant
+## Removal of protein contaminant (10--20 min)
 
 17. Add 700 $\mu$L phenol:chloroform:isoamyl alcohol solution. Vortex.
 
@@ -152,11 +150,11 @@ Repeat as above in order to remove residual phenol.
 
 21. Repeat the chloroform wash to ensure no phenol remains.
 
-## DNA precipitation
+## DNA precipitation (45--60 min)
 
 22. Precipitate DNA by adding 40 $\mu$L of 3 M sodium acetate and 1.0 mL 
-of ethanol.^[Because sample should contain $>10$ $\mu$g of DNA, cold will not 
-improve yield [@zeugin85; @crouse87].]
+of ethanol.^[Since DNase should have been removed and the sample should contain
+$>10$ $\mu$g of DNA, cold will not improve yield [@zeugin85; @crouse87].]
 Mix well. Centrifuge at 16 000 g for 30 min.
 
 23. Discard supernatant. Wash the pellet by adding 100 $\mu$L of 70% ethanol. 

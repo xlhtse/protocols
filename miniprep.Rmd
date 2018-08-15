@@ -75,9 +75,8 @@ Incubate at room temperature for 3 min.
 3. Remove debris^[containing proteins, lipids, and other contaminants] by 
 centifugation at 14 000 g for 1 min.
 Place pipette tip at bottom of tube^[Short centrifugation should collect the 
-debris on the *side* wall.]
+debris on the *side* wall. Avoid collecting the white precipitate.]
 and aspirate supernatant to transfer to a new tube.
-Avoid collecting the white precipitate.
 
 ## Removal of protein contaminant
 
