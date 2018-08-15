@@ -33,7 +33,7 @@ purification.]
 ## Equipment
 - 1.5 mL or 2.0 mL tubes
 - Microcentrifuge
-- Foom hood
+- Fume hood
 
 ## Preparation
 
@@ -64,10 +64,10 @@ Avoid collecting the interphase.
 3. Repeat phenol-chloroform purification until interphase no longer appears
 (0--2 additional rounds).
 
-4. Add 1$\times$ volume of chloroform:isoamyl alcohol. Repeat as
-above in order to remove residual phenol.
+4. Add 1$\times$ volume of chloroform:isoamyl alcohol.
+Repeat as above in order to remove residual phenol.
 
-5. Repeat the chloroform purification to ensure no phenol remains.
+5. Repeat the chloroform wash to ensure no phenol remains.
 
 6. Precipitate DNA by adding 0.1 volume of 3 M sodium acetate and 2.5 volumes 
 of ethanol.^[If sample contains $>1$ $\mu$g of DNA, cold does not improve yield 
