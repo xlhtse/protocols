@@ -21,9 +21,11 @@ remove contaminating protein and lipds.
 # Materials
 
 ## Reagents
-- Phenol:chloroform:isoamyl alcohol (25:24:1 v/v, pH 8.0)^[Use of acidic phenol
-will cause DNA to fractionate into the organic phase, complicating subsequent
-purification.]
+- Phenol:chloroform:isoamyl alcohol (25:24:1 v/v, pH 8.0)^[**Caution**: 
+Use of acidic phenol will cause DNA to fractionate into the organic phase, 
+complicating subsequent purification. Ensure that correct phenol is used.
+Do not use oxidized phenol, which appears pink or red-brown.
+**Warning**: Both phenol and chloroform are toxic and violatile: handle these
 - Chloroform:isoamyl alcohol (24:1 v/v)
 - 3 M sodium acetate, pH 5.2 *or* 10 M ammonium acetate
 - ethanol *or* isopropanol
@@ -56,16 +58,19 @@ EDTA to 98.8 mL of nuclease-free water.
 1. Dilute sample up to 400 $\mu$L with water, or split sample.^[If isopropanol 
 will be used for precipitation, sample may have volume up to 700 $\mu$L.]
 
-2. Add 1$\times$ volume of phenol:chloroform:isoamyl alcohol.
+2. Add 1$\times$ volume of phenol:chloroform:isoamyl alcohol solution.^[
+Phenol solution is topped with an aqueous phase of Tris-EDTA buffer. Use
+the bottom, organic phase. Before dispensing phenol, pre-wet the pipette tip by
+pipetting up fully and down once in order to avoid dripping.]
 Vortex vigorously. Centrifuge at 16 000 g for 2 min to seprate the phases.
-Transfer the upper, aqueous phase to a new tube.
-Avoid collecting the interphase.
+Transfer the upper, aqueous phase to a new tube.^[**Caution**:
+Do not collect the precipitates in the interphase.]
 
 3. Repeat phenol-chloroform purification until interphase no longer appears
 (0--2 additional rounds).
 
-4. Add 1$\times$ volume of chloroform:isoamyl alcohol.
-Repeat as above in order to remove residual phenol.
+4. Add 1$\times$ volume of chloroform:isoamyl alcohol.^[Pre-wet the pipette 
+tip.] Repeat as above in order to remove residual phenol.
 
 5. Repeat the chloroform wash to ensure no phenol remains.
 
