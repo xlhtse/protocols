@@ -101,7 +101,6 @@ incubate at *room temperature* for 5 min.^[**Caution**: Do not vortex.
 Avoid extended incbuation. Do not incubate on ice.]
 
 5. Add 1.5 mL neutralization buffer. Mix *gently* by inverting 6 times.
-Incubate on ice for 10 min.
 Avoiding the floating debris, transfer and split the solution into $3\times$ 
 1.5 mL tubes (~1 mL each).^[**Caution**: Debris may block the pipette tip.
 Aspirate slowly to avoid contaminating the pipette shaft.]
