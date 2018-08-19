@@ -47,7 +47,7 @@ handle these in a fume hood.]
 - Tris-EDTA buffer (10 mM Tris-HCl, pH 8.0, 1 mM EDTA)
 
 ## Equipment
-- 50 mL tubes; 1.5 mL tubes (12--13 per sample of 50 mL culture)
+- 50 mL tubes; 1.5 mL tubes (12--13 per sample)
 - Microcentrifuge
 - Centrifuge (max speed of 1400 g or 3000--4000 rpm suffices)
 - Fume hood
