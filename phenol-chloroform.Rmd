@@ -76,7 +76,8 @@ tip.] Repeat as above in order to remove residual phenol.
 
 6. Precipitate DNA by adding 0.1 volume of 3 M sodium acetate and 2.5 volumes 
 of ethanol.^[If sample contains $>1$ $\mu$g of DNA, cold does not improve yield 
-[@zeugin85; @crouse87].]
+[@zeugin85; @crouse87]. Overnight incubation at 4 $^\circ$C results in a bigger
+pellet due to more salt co-precipitation.]
 Mix well. Centrifuge at 16 000 g for 30 min at 4 $^\circ$C.
 
 7. Discard supernatant. Wash the pellet by adding 500 $\mu$L of 70% ethanol. 

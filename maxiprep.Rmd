@@ -92,7 +92,8 @@ to 3000--4000 rpm using centrifuge with 10--15 cm rotor.]
 no clumps remain.
 
 3. *Optional*: Add 2.5 mg lysozyme (50 $\mu$L). Mix well.
-Incubate on ice for 15--30 min.^[Prepare fresh alkaline lysis buffer meanwhile.]
+Incubate on ice for 15--30 min.^[Meanwhile, prepare fresh alkaline lysis 
+buffer.]
 
 4. Add 2.0 mL alkaline lysis buffer.^[SDS precipitates when buffer
 is cold. Warm buffer to re-dissolve SDS.]
@@ -103,12 +104,13 @@ Avoid extended incbuation. Do not incubate on ice.]
 5. Add 1.5 mL neutralization buffer. Mix *gently* by inverting 6 times.
 Avoiding the floating debris, transfer and split the solution into $3\times$ 
 1.5 mL tubes (~1 mL each).^[**Caution**: Debris may block the pipette tip.
-Aspirate slowly to avoid contaminating the pipette shaft.]
+Aspirate slowly to avoid contaminating the pipette shaft. Use filtered/barrier
+p1000 tip.]
 
 6. Remove debris by centifugation at 14 000 g for 1 min.
-Transfer the supernatant to new tubes,^[Place p200 pipette tip against wall.
+Transfer the supernatant to 3 new tubes, with $\le 800$ $\mu$L per tube.^[
+Place p200 pipette tip against wall.
 Avoid collecting the white precipitate.]
-placing $\le 800$ $\mu$L into each of 3 new tubes.
 
 7. Precipitate the nucleic acids with 600 $\mu$L isopropanol. Mix well.
 Pellet at 16 000 g for 1 min.^[Expect a 3--4 mm wide pellet.]
@@ -117,24 +119,27 @@ Discard supernatant immediately.
 8. Wash the pellet with 200 $\mu$L of 70% ethanol.
 Mix by inverting. Pellet at 16 000 g for 30 s.
 
-9. Discard supernatant. Aspirate residual liquid. Dry pellet for 4 min.
+9. Discard supernatant. Aspirate residual liquid. Dry pellet for 6 min.
 
-10. Dissolve and combine pellets (from the same sample) in a total of 
-500 $\mu$L of Tris-EDTA buffer.^[Use a p200 pipette. Multiple 50 mL cultures
-with the same plasmid may be combined here. Ensuing pellet size
-estimates are based on one culture of a high copy-number plasmid.]
+10. Dissolve and combine pellets^[
+**Caution**: Pellet becomes clear and colourless;
+ensure it dissolving completely.]
+(from the same sample) in a total of 500 $\mu$L of Tris-EDTA buffer.^[
+Multiple 50 mL cultures for the same plasmid may be combined here.
+Ensuing pellet size estimates are based on one culture of a high 
+copy-number plasmid.]
 
 ## Removal of RNA contaminant (1.0--1.5 h)
 
 11. Preciptate large RNA by adding 500 $\mu$L of 5 M LiCl. Mix well.
 Incubate on ice for 5 min.
-
+ 
 12. Pellet RNA contaminant at 16 000 g for 1 min.^[**Caution**:
 DNA is in the supernatant. Do not discard. Expect a 4--5 mm wide, soft RNA 
 pellet.]
-Transfer supernatant into 2 new tubes (~0.6 mL each).
+Transfer *supernatant* into 2 new tubes (~0.5 mL each).
 
-13. Precipitate DNA with 600 $\mu$L of isopropanol. Mix well.
+13. Precipitate DNA with 500 $\mu$L of isopropanol. Mix well.
 Pellet at 16 000 g for 1 min.^[Expect a 2--3 mm wide DNA pellet.]
 Discard supernatant immediately.
 
@@ -144,19 +149,19 @@ Pellet at 16 000 g for 30 s.
 15. Discard supernatant. Aspirate liquid. Dry pellet for 3 min.
 
 16. Dissolve and combine the pellets (from the same sample) in a total of 
-400 $\mu$L Tris-EDTA buffer.^[Use a p200 pipette.]
+400 $\mu$L Tris-EDTA buffer.
 Add 5 $\mu$L of 20 mg/mL RNase A to digest remaining RNA.
-Incubate at room temperature for 20 min.
+Incubate at *room temperature* for 20 min.
 
 ## Removal of protein contaminant (10--20 min)
 
 17. Add 700 $\mu$L phenol:chloroform:isoamyl alcohol solution.^[
 Phenol solution is topped with an aqueous phase of Tris-EDTA buffer. Use
-the bottom, organic phase. Before dispensing phenol, pre-wet the pipette tip by
-pipetting up fully and down once in order to avoid dripping.]
+the bottom, organic phase. To avoid dripping, pre-wet the pipette tip by
+pipetting up fully and down once.]
 Vortex vigorously. Centrifuge at 16 000 g for 2 min.
-Transfer the upper, aqueous phase to a new tube.^[**Caution**:
-Do not collect the precipitates in the interphase.]
+Transfer the upper, aqueous phase to a new tube.^[
+**Caution**: Do not collect precipitates in the interphase.]
 
 18. Repeat phenol-chloroform purification until interphase no longer appears
 (1--2 additional rounds).
@@ -171,7 +176,8 @@ Repeat as above in order to remove residual phenol.
 21. Precipitate DNA by adding 40 $\mu$L of 3 M sodium acetate and 1.0 mL 
 of ethanol.^[Since DNase should have been removed and the sample should contain
 $>10$ $\mu$g of DNA, cold would not improve yield [@zeugin85; @crouse87].]
-Mix well. Pellet at 16 000 g for 30 min.^[Expect a 2--3 mm wide DNA pellet.]
+Mix well. Pellet at 16 000 g for 30 min.^[Expect a 2--3 mm wide DNA pellet.
+Bigger pellet suggests salt co-precipitation.]
 
 22. Discard supernatant. Wash the pellet by adding 100 $\mu$L of 70% ethanol. 
 Mix by inverting. Pellet at 16 000 g for 1 min.
