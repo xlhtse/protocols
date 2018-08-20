@@ -42,7 +42,7 @@ and colourless. Do not use oxidized phenol, which appears pink or red-brown.
 **Warning**: Both phenol and chloroform are toxic and violatile: 
 handle these in a fume hood.]
 - Chloroform:isoamyl alcohol (24:1 v/v)
-- 3 M sodium acetate, pH 5.2
+- 8 M ammonium acetate
 - ethanol and 70% ethanol
 - Tris-EDTA buffer (10 mM Tris-HCl, pH 8.0, 1 mM EDTA)
 
@@ -71,10 +71,10 @@ handle these in a fume hood.]
     - 11.5 mL glacial acetic acid (17 M)
     - 28.5 mL water
 
-- **Sodium acetate (3 M)**. Dissolve 24.6 g of anhydrous sodium acetate in 
-70 mL of water. (Or use 40.8 g of NaCH~3~COO^--^ $\cdot$ 3H~2~O.)
-Adjust the pH to 5.2 with glacial acetic acid (~10 mL).
-Adjust final volume to 100 mL. Autoclave to sterilize.
+- **Ammonium acetate (8 M)**. Dissolve 77 g of ammonium acetate in 53 mL of 
+water at room temperature. Adjust final volume to 125 mL.
+Sterilize by passing solution through a 0.22 $\mu$m filter. Do *not* autoclave.
+Store at -4 $^\circ$C.
 
 - **Tris-EDTA buffer**. Add 1 mL of 1 M Tris-HCL pH 8.0 and 0.2 mL of 0.5 M
 EDTA to 98.8 mL of nuclease-free water.
@@ -173,7 +173,7 @@ Repeat as above in order to remove residual phenol.
 
 ## DNA precipitation (40--50 min)
 
-21. Precipitate DNA by adding 40 $\mu$L of 3 M sodium acetate and 1.0 mL 
+21. Precipitate DNA by adding 100 $\mu$L of 8 M ammonium acetate and 1.0 mL 
 of ethanol.^[Since DNase should have been removed and the sample should contain
 $>10$ $\mu$g of DNA, cold would not improve yield [@zeugin85; @crouse87].]
 Mix well. Pellet at 16 000 g for 30 min.^[Expect a 2--3 mm wide DNA pellet.
@@ -182,10 +182,13 @@ Bigger pellet suggests salt co-precipitation.]
 22. Discard supernatant. Wash the pellet by adding 100 $\mu$L of 70% ethanol. 
 Mix by inverting. Pellet at 16 000 g for 1 min.
 
-23. Discard supernatant. Aspirate liquid. Dry pellet for 6 min.
+23. Discard supernatant. Aspirate liquie. Repeat the pellet wash by adding
+100 $\mu$L of 70% ethanol. Mix. Pellet at 16 000 g for 1 min.
 
-24. Dissolve DNA in 100 $\mu$L Tris-EDTA buffer.^[Expect a yield of 
-200--300 $\mu$g per 50 mL culture with a high copy-number plasmid.]
+24. Discard supernatant. Aspirate liquid. Dry pellet for 6 min.
+
+25. Dissolve DNA in 100 $\mu$L Tris-EDTA buffer.^[Expect a yield of 
+50--150 $\mu$g per 50 mL culture with a high copy-number plasmid.]
 
 
 \newpage
@@ -203,6 +206,10 @@ Use fresh RNase A and/or extend incubation time.
 
 - **High molecular weight smear**. Extract is likely contaminated with genomic 
 DNA. Avoid vigorous mixing and reduce incubation time during alkaline lysis.
+
+- **Unrealistically high DNA yield**. Sample is contaminated with free
+nucleotides. Re-precipitate the DNA with 8 M ammonium acetate and ethanol to
+remove the free nucleotides.
 
 - **Degraded plasmid**. Keep the sample on ice as much as possible before 
 phenol-chloroform purification, which removes nucleases.
