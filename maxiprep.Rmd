@@ -123,7 +123,7 @@ Mix by inverting. Pellet at 16 000 g for 30 s.
 
 10. Dissolve and combine pellets^[
 **Caution**: Pellet becomes clear and colourless;
-ensure it dissolving completely.]
+ensure it dissolves completely.]
 (from the same sample) in a total of 500 $\mu$L of Tris-EDTA buffer.^[
 Multiple 50 mL cultures for the same plasmid may be combined here.
 Ensuing pellet size estimates are based on one culture of a high 
