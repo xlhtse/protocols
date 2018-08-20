@@ -47,7 +47,7 @@ Adjust final volume to 100 mL. Autoclave to sterilize.
 - **Ammonium acetate (8 M)**. Dissolve 77 g of ammonium acetate in 53 mL of 
 water at room temperature. Adjust final volume to 125 mL.
 Sterilize by passing solution through a 0.22 $\mu$m filter. Do *not* autoclave.
-Store at -4 $^\circ$C.
+Store at 4 $^\circ$C.
 
 - **Tris-EDTA buffer**. Add 1 mL of 1 M Tris-HCL pH 8.0 and 0.2 mL of 0.5 M
 EDTA to 98.8 mL of nuclease-free water.
