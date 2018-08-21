@@ -83,7 +83,7 @@ EDTA to 98.8 mL of nuclease-free water.
 
 # Procedure
 
-## Akaline lysis (1.5--2.5 h)
+## Akaline lysis (1.5--3.0 h)
 
 1. Pellet 50 mL of bacterial culture at 1400 g for 10 min.^[Speed is equivalent
 to 3000--4000 rpm using centrifuge with 10--15 cm rotor.]
@@ -129,7 +129,7 @@ Multiple 50 mL cultures for the same plasmid may be combined here.
 Ensuing pellet size estimates are based on one culture of a high 
 copy-number plasmid.]
 
-## Removal of RNA contaminant (1.0--1.5 h)
+## Removal of RNA contaminant (40--60 min)
 
 11. Preciptate large RNA by adding 500 $\mu$L of 5 M LiCl. Mix well.
 Incubate on ice for 5 min.
