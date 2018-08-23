@@ -14,9 +14,9 @@ bibliography: bibtex/mmr-reporter-assay.bib
 ---
 
 This reporter assay is a type of host reactivation assay that assesses the 
-mismatch [@zhou09]. A plasmid with a single base-pair mismatch (known as a 
-**heteroduplex plasmid**) will be prepared and transfected into cells, 
-followed by flow cytometry to quantify the proportion of mismatch repair 
+mismatch repair pathway[@zhou09]. A plasmid with a single base-pair mismatch 
+(known as a **heteroduplex plasmid**) will be prepared and transfected into 
+cells, followed by flow cytometry to quantify the proportion of mismatch repair 
 competent cells.
 
 ----
