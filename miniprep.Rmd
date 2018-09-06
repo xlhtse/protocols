@@ -106,7 +106,7 @@ Keeping the DNA at high concentration minimizes concentration of EDTA for
 downstream applications. Use of water instead of Tris-EDTA is discouraged 
 unless phenol-chloroform purification has been done.]
 
-12. Use 2 $\mu$L for gel electrophoresis or restriction digest.^[Contaminants
+12. Use 4 $\mu$L for gel electrophoresis or restriction digest.^[Contaminants
 including RNA, genomic DNA, and free nucleotides will inflate UV absorbance 
 measurements by spectrometers.]
 Use immediately or store at -20 $\circ$C.
