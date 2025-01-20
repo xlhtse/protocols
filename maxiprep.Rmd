@@ -1,0 +1,242 @@
+---
+title: "Plasmid maxiprep by alkaline lysis"
+author: "David J. H. Shih"
+date: "`r Sys.Date()`"
+output:
+  tufte::tufte_handout:
+    citation_package: natbib
+    latex_engine: xelatex
+  tufte::tufte_book:
+    citation_package: natbib
+    latex_engine: xelatex
+  tufte::tufte_html: default
+bibliography: bibtex/basic.bib
+---
+
+This protocol extracts plasmid DNA from a large bacteria culture ($\ge 50$ mL) 
+by first using the alkaline lysis method [@birnboim79] to remove lipids, 
+polysaccharides, proteins, and genomic DNA, followed by RNA precipitation and 
+RNase treatment to remove RNA, and phenol-chloroform to remove residuel proteins
+such as nucleases. Except for initial bacteria pelleting, all subsequent 
+centrifugations are carried out in 1.5 mL tubes in order to minimize
+centrifugation times and machine requirement.
+DNA purified by this protocol is suitable for most applications, including 
+mammalian transfection.
+
+----
+
+# Materials
+
+## Reagents
+- Resuspension buffer (50 mM Tris-HCl pH 8.0, 10 mM EDTA)
+- lysozyme (50 mg/mL in water; store at -20 $^\circ$C)^[
+Lysozyme helps produce clearer and less viscous lysate, facilitating transfer.
+Lysozme is required for gram-positive bacteria to digest peptidoglycan.]
+- Alkaline lysis buffer (0.2 M NaOH, 1% SDS)
+- Neutralization buffer (3 M potassium acetate, 2 M acetic acid)
+- isopropanol
+- 5 M lithium chloride
+- 20 mg/mL RNase A
+- Phenol:chloroform:isoamyl alcohol (25:24:1 v/v)^[**Caution**: Phenol is clear
+and colourless. Do not use oxidized phenol, which appears pink or red-brown.
+**Warning**: Both phenol and chloroform are toxic and violatile: 
+handle these in a fume hood.]
+- Chloroform:isoamyl alcohol (24:1 v/v)
+- 8 M ammonium acetate
+- ethanol and 70% ethanol
+- Tris-EDTA buffer (10 mM Tris-HCl, pH 8.0, 1 mM EDTA)
+
+## Equipment
+- 50 mL tubes; 1.5 mL tubes (12--13 per sample)
+- Microcentrifuge
+- Centrifuge (max speed of 1400 g or 3000--4000 rpm suffices)
+- Fume hood
+
+\newpage
+
+## Preparation
+
+- **Resuspension buffer**. For 100 mL,
+    - 5 mL of 1 M Tris-HCl, pH 8.0
+    - 200 $\mu$L of 0.5 M EDTA
+    - 94.8 mL water
+
+- **Alkaline lysis buffer**. For each 2 mL of fresh solution,
+    - 200 $\mu$L of 10% SDS
+    - 100 $\mu$L of 4 M NaOH
+    - 1.7 mL water
+
+- **Neutralization buffer**. For 100 mL,
+    - 60 mL of 5 M potassium acetate
+    - 11.5 mL glacial acetic acid (17 M)
+    - 28.5 mL water
+
+- **Ammonium acetate (8 M)**. Dissolve 77 g of ammonium acetate in 53 mL of 
+water at room temperature. Adjust final volume to 125 mL.
+Sterilize by passing solution through a 0.22 $\mu$m filter. Do *not* autoclave.
+Store at 4 $^\circ$C.
+
+- **Tris-EDTA buffer**. Add 1 mL of 1 M Tris-HCL pH 8.0 and 0.2 mL of 0.5 M
+EDTA to 98.8 mL of nuclease-free water.
+
+\newpage
+
+# Procedure
+
+## Akaline lysis (1.5--3.0 h)
+
+1. Pellet 50 mL of bacterial culture at 1400 g for 10 min.^[Speed is equivalent
+to 3000--4000 rpm using centrifuge with 10--15 cm rotor.]
+
+2. Resuspend pellet completely in 1 mL resuspension buffer. Ensure
+no clumps remain.
+
+3. *Optional*: Add 2.5 mg lysozyme (50 $\mu$L). Mix well.
+Incubate on ice for 15--30 min.^[Meanwhile, prepare fresh alkaline lysis 
+buffer.]
+
+4. Add 2.0 mL alkaline lysis buffer.^[SDS precipitates when buffer
+is cold. Warm buffer to re-dissolve SDS.]
+Mix *gently* by inverting 6 times and 
+incubate at *room temperature* for 5 min.^[**Caution**: Do not vortex.
+Avoid extended incbuation. Do not incubate on ice.]
+
+5. Add 1.5 mL neutralization buffer. Mix *gently* by inverting 6 times.
+Avoiding the floating debris, transfer and split the solution into $3\times$ 
+1.5 mL tubes (~1 mL each).^[**Caution**: Debris may block the pipette tip.
+Aspirate slowly to avoid contaminating the pipette shaft. Use filtered/barrier
+p1000 tip.]
+
+6. Remove debris by centifugation at 14 000 g for 1 min.
+Transfer the supernatant to 3 new tubes, with $\le 800$ $\mu$L per tube.^[
+Place p200 pipette tip against wall.
+Avoid collecting the white precipitate.]
+
+7. Precipitate the nucleic acids with 600 $\mu$L isopropanol. Mix well.
+Pellet at 16 000 g for 2 min.^[Expect a 3--4 mm wide pellet.]
+Discard supernatant immediately.
+
+8. Aspirate residual liquid. Wash the pellet with 200 $\mu$L of 70% ethanol.
+Mix by inverting. Pellet at 16 000 g for 30 s.
+
+9. Discard supernatant. Aspirate residual liquid. Dry pellet for 3 min.
+
+10. Dissolve and combine pellets^[
+**Caution**: Pellet becomes clear and colourless;
+ensure it dissolves completely.]
+(from the same sample) in a total of 300 $\mu$L of Tris-EDTA buffer.^[
+Multiple 50 mL cultures for the same plasmid may be combined here.
+Ensuing pellet size estimates are based on one culture of a high 
+copy-number plasmid.]
+
+## Removal of RNA contaminant (40--60 min)
+
+11. Preciptate large RNA by adding 300 $\mu$L of 5 M LiCl. Mix well.
+Incubate on ice for 5 min.
+ 
+12. Pellet RNA contaminant at 16 000 g for 1 min.^[**Caution**:
+DNA is in the supernatant. Do not discard. Expect a 4--5 mm wide, soft RNA 
+pellet.]
+Transfer *supernatant* into a new tube.
+
+13. Precipitate DNA with 600 $\mu$L of isopropanol. Mix well.
+Pellet at 16 000 g for 2 min.^[Expect a 2--3 mm wide nucleic acid pellet.]
+Discard supernatant immediately.
+
+14. Aspirate residual liquid. Wash the pellet with 100 $\mu$L of 70% ethanol.
+Mix by inverting. Pellet at 16 000 g for 30 s.
+
+15. Discard supernatant. Aspirate liquid. Dry pellet for 3 min.
+
+16. Dissolve the pellet in 100 $\mu$L Tris-EDTA buffer.
+Add 4 $\mu$L of 20 mg/mL RNase A to digest remaining RNA.
+Incubate at *room temperature* for 20 min.
+
+## Removal of free nucleotides (6--10 min)^[
+Free nucleotides cause undesirable over-estimation and additional variability
+in apparent yield by UV absorbance spectrometry.]
+
+17. Add 50 $\mu$L of 8M ammonium acetate. Mix well. Add 150 $\mu$L isopropanol 
+to precipitate DNA without free nucleotides. Mix well.
+Pellet at 16 000 g for 2 min.^[Expect a 2--3 mm wide DNA pellet.]
+Discard supernatant immediately.
+
+18. Aspirate residual liquid. Wash the pellet with 100 $\mu$L of 70% ethanol.
+Mix by inverting. Pellet at 16 000 g for 30 s.
+
+19. Discard supernatant. Aspirate liquid. Dry pellet for 3 min.
+
+20. Dissolve the pellet in 400 $\mu$L Tris-EDTA buffer.
+
+## Removal of protein contaminant (10--20 min)
+
+21. Add 400 $\mu$L phenol:chloroform:isoamyl alcohol solution.^[
+Phenol solution is topped with an aqueous phase of Tris-EDTA buffer. Use
+the bottom, organic phase. To avoid dripping, pre-wet the pipette tip by
+pipetting up fully and down once.]
+Vortex vigorously. Centrifuge at 16 000 g for 2 min.
+Transfer the upper, aqueous phase to a new tube.^[
+**Caution**: Do not collect precipitates in the interphase.]
+
+22. Repeat phenol-chloroform purification until interphase no longer appears
+(1--2 additional rounds).
+
+23. Add 400 $\mu$L chloroform:isoamyl alcohol.^[Pre-wet the pipette tip.]
+Repeat as above in order to remove residual phenol.
+
+24. Repeat the chloroform wash to ensure no phenol remains.
+
+## DNA precipitation (40--50 min)
+
+25. Precipitate DNA by adding 40 $\mu$L of 3 M sodium acetate and 1.0 mL 
+of ethanol.^[Since DNase should have been removed and the sample should contain
+$>10$ $\mu$g of DNA, cold would not improve yield [@zeugin85; @crouse87].]
+Mix well. Pellet at 16 000 g for 30 min.^[Expect a 2--3 mm wide DNA pellet.
+Bigger pellet suggests salt co-precipitation.]
+
+26. Discard supernatant. Wash the pellet by adding 100 $\mu$L of 70% ethanol. 
+Mix by inverting. Pellet at 16 000 g for 1 min.
+
+27. Discard supernatant. Aspirate liquid. Dry pellet for 6 min.
+
+28. Dissolve DNA in 100 $\mu$L Tris-EDTA buffer.^[Expect a yield of 
+50--150 $\mu$g per 50 mL culture with a high copy-number plasmid.]
+
+
+\newpage
+
+# Troubleshooting
+
+- **No nucleic acid pellet**. All nucleic acid pellets should be visible.
+Be sure to keep the supernatant after precipitation by lithium chloride, 
+because the DNA is in the supernatant. The pellet produced in this step is the 
+undesirable RNA contaminant.
+
+- **Low molecular weight smear**. Extract is likely contaminated with RNA.
+Do not skip RNA precipitation with lithium chloride.
+Use fresh RNase A and/or extend incubation time.
+
+- **High molecular weight smear**. Extract is likely contaminated with genomic 
+DNA. Avoid vigorous mixing and reduce incubation time during alkaline lysis.
+
+- **Unrealistically high DNA yield**. Sample is contaminated with free
+nucleotides. Re-precipitate the DNA with 8 M ammonium acetate and ethanol to
+remove the free nucleotides.
+
+- **Degraded plasmid**. Keep the sample on ice as much as possible before 
+phenol-chloroform purification, which removes nucleases.
+Do additional phenol:chloroform:isoamyl purification until the interphase
+disappears.
+
+- **Suboptimal downstream application**. Phenol or ethanol residual may
+interfere with downstream application.
+Do additional chloroform wash to remove trace phenol.
+Aspirate all residual liquid after ethanol wash and extend final pellet drying 
+time.
+
+
+# Timing
+
+Total of 4-6 h for 2--4 samples.
+
+----
