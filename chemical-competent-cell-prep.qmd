@@ -105,12 +105,19 @@ For 500 mL
 **Perform the following steps at 4 ºC**
 
 5.  Transfer the culture vessel to an ice-water bath for 10 min. Discard the two other cultures.
-6.  Transfer the bacteria culture into centrifuge tubes. Centrifuge at 2500 *g* for 10 min at 4 °C.
-7.  Discard supernatant. Resuspend the pellet in 80 ml cold Inoue solution.
-8.  Centrifuge at 2500 *g* for 10 min at 4 °C.
-9.  Resuspend the bacteria in 20 mL cold Inoue solution 4 °C.
-10. Add 1.5 ml of DMSO. Mix the suspension by swirling and then store it in ice for 10 minutes.
-11. **\[Working quickly\]** Dispense 50-100 µL of the suspension into chilled, sterile microfuge tubes. Immediately snap-freeze in a bath of liquid nitrogen.
-12. Store the tubes at -80ºC until needed.
 
-## 
+6.  Transfer the bacteria culture into centrifuge tubes. Centrifuge at 2500 *g* for 10 min at 4 °C.
+
+7.  Discard supernatant. Resuspend the pellet in 80 ml cold Inoue solution.
+
+8.  Centrifuge at 2500 *g* for 10 min at 4 °C.
+
+9.  Resuspend the bacteria in 20 mL cold Inoue solution 4 °C.
+
+10. Add 1.5 ml of DMSO. Mix the suspension by swirling and then store it in ice for 10 minutes.
+
+11. **\[Working quickly\]** Dispense 50-100 µL of the suspension into chilled, sterile microfuge tubes.
+
+12. Immediately snap-freeze in a bath of liquid nitrogen.
+
+13. Store the tubes at -80ºC until needed.
