@@ -1,0 +1,116 @@
+---
+title: "Chemical competent cell preparation"
+format: html
+editor: visual
+author: Carrie Tse
+date: "`r Sys.Date()`"
+---
+
+## Description
+
+ßPreparation protocol for chemical competent cell. Suitable for most E.coli strains including stbl3.
+
+## Materials
+
+-   MnCl~2~
+-   CaCl~2~
+-   KCl
+-   piperazine-N,N′-bis(2-ethanesulfonic acid) (PIPES)
+-   KOH
+-   SOB medium[^1]
+-   DMSO
+-   LB agar plate (without antibiotics)
+    -   LB agar
+    -   90-mm petri-dish
+-   Centrifuge Himac CR22N with rotor R13A or similar
+    -   250 ml centrifuge tubes for Himac CR22N rotor R13A (**autoclaved/sterile)**
+-   Nalgene filter (0.22-mm pore size)
+-   Erlenmeyer flasks
+-   1.5 mL tubes (**autoclaved/sterile)**
+
+[^1]: can be replaced with LB broth
+
+## Preparation
+
+**LB agar plate**
+
+Autoclave LB agar and pour into 90 mm petri-dish.
+
+**SOB medium**[^2]
+
+[^2]: can be replaced with LB broth
+
+Purchase or homemade with recipe below:
+
+For 1 L
+
+-   5 g NaCl
+-   20 g trypton
+-   5 g yeast extract
+-   2.5 ml 1 M KCl
+-   add up to 1 litre Milli-Q H~2~O
+
+Prepare 3 x 250 mL SOB medium in 1 L flask.
+
+Autoclave the SOB medium.
+
+**0.5 M PIPES solution**
+
+For 100 mL
+
+-   Dissolve 15.1 g PIPES in 80 ml water.
+
+-   Keep adding KOH until the solution becomes clear.
+
+-   Use KOH or HCl to further adjust the pH to 6.7.
+
+-   Add Milli-Q H~2~O until 100 ml and aliquot in 10 ml tubes.
+
+-   Store at -20 °C.
+
+**Inoue solution**
+
+For 500 mL
+
+| Reagent              | Amount per liter | Final concentration |
+|----------------------|------------------|---------------------|
+| MnCl~2~·4H~2~O       | 5.44 g           | 55 mM               |
+| CaCl~2~·2H~2~O       | 1.10 g           | 15 mM               |
+| KCl                  | 9.325 g          | 250 mM              |
+| PIPES (0.5M, pH 6.7) | 10 mL            | 10 mM               |
+| Milli-Q H~2~O        | to 500 mL        |                     |
+
+-   Filter-sterilize the solution.
+
+-   Aliquot into 50 mL tubes, store at -20 °C.
+
+> Estimate the amount of Inoue solution and PIPES solution required and prepare accordingly.
+
+> One batch (250 mL cell culture, 20 mL final chemical competent cell) requires 2 mL PIPES solution for 100 mL Inoue solution.
+
+## Procedures
+
+1.  Streak out the desired bacterial cell line on an LB-agar plate and incubate at 37 °C for 12-16 h.
+
+2.  Inoculate a single colony into 5 mL SOB medium, Incubate the culture for 6-8 h at 37 ºC with vigorous shaking (250-300 rpm).
+
+3.  Transfer 500 µL, 1 mL, and 3 mL culture into three 1 L flasks, respectively. Each contains 250 mL SOB medium. Incubate overnight at 18-22 ºC with moderate shaking.
+
+    > Store 100 mL Inoue solution at 4 ºC for use tomorrow.
+
+4.  The following morning, read the OD~600~ of all three cultures. Continue to monitor the OD every 45 minutes until the OD~600~ reaches 0.55.
+
+    > Pre-cool the centrifuge to 4 ºC during the step.
+
+**Perform the following steps at 4 ºC**
+
+5.  Transfer the culture vessel to an ice-water bath for 10 min. Discard the two other cultures.
+6.  Transfer the bacteria culture into centrifuge tubes. Centrifuge at 2500 *g* for 10 min at 4 °C.
+7.  Discard supernatant. Resuspend the pellet in 80 ml cold Inoue solution.
+8.  Centrifuge at 2500 *g* for 10 min at 4 °C.
+9.  Resuspend the bacteria in 20 mL cold Inoue solution 4 °C.
+10. Add 1.5 ml of DMSO. Mix the suspension by swirling and then store it in ice for 10 minutes.
+11. **\[Working quickly\]** Dispense 50-100 µL of the suspension into chilled, sterile microfuge tubes. Immediately snap-freeze in a bath of liquid nitrogen.
+12. Store the tubes at -80ºC until needed.
+
+## 
