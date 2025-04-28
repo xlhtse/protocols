@@ -5,12 +5,13 @@ editor: visual
 author: Carrie Tse
 date: "`r Sys.Date()`"
 ---
+# Description
 
 Simplified protocol for QIAamp RNA Blood Mini kit
 
 ------------------------------------------------------------------------
 
-# Materials
+## Materials
 
 -   QIAamp Spin Columns (clear)\
 -   QIAshredder Spin Columns (lilac)\
@@ -22,16 +23,16 @@ Simplified protocol for QIAamp RNA Blood Mini kit
 -   Buffer RPE\[\^before 1st use: add 4 volumes of 96-100% ethanol to make a working solution\]
 -   RNase-free Water
 
-# Equipments
+## Equipments
 
 -   Centrifuge (for 14 mL / 50 mL tubes, with cooling)
 -   Primary TC hood \newpage
 
-# Notes
+## Notes
 
 -   A maximum of 1 x 10^7^ leukocytes can be processed on a QIAamp spin column.
 
-# Preparation
+## Preparation
 
 -   Add 20 uL of 2 M dithiothreitol (DTT) per 1 mL Buffer RLT before use
 - Prepare 70% ethanol with nuclease-free water 
