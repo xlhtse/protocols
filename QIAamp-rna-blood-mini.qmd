@@ -1,0 +1,64 @@
+---
+title: "Lentivirus production and transduction"
+format: html
+editor: visual
+author: Carrie Tse
+date: "`r Sys.Date()`"
+---
+
+Simplified protocol for QIAamp RNA Blood Mini kit
+
+----
+
+# Materials
+
+- QIAamp Spin Columns (clear)  
+- QIAshredder Spin Columns (lilac)  
+- Collection Tubes (1.5 ml)  
+- Collection Tubes (2 ml)  
+- Buffer EL
+- Buffer RLT
+- Buffer RW1
+- Buffer RPE[^before 1st use: add 4 volumes of 96-100% ethanol to make a working solution]
+- RNase-free Water 
+
+# Equipments
+- Centrifuge (for 14 mL / 50 mL tubes, with cooling)
+- Primary TC hood 
+\newpage
+
+# notes
+- A maximum of 1 x 10^7^ leukocytes can be processed on a QIAamp spin column. 
+
+
+# Preparation
+- Add 20 uL of 2 M dithiothreitol (DTT) per 1 mL Buffer RLT before use
+
+
+
+# Procedure
+## Erythrocyte lysis
+
+> Process in primary TC room (or designated location for clinical samples)
+
+1. Mix 1 volume of whole blood with 5 volumes of Buffer EL. (i.e., 1 mL whole blood + 5 mL Buffer EL, mix in 14 mL tube)
+
+2. Incubate 10-15 min on ice. Vortex briefly 2 times during incubation.
+
+3. Centrifuge at 400 *g* 10 min at 4 °C.
+
+4. Remove supernatant completely. 
+
+5. Add 2 volumes Buffer EL per volume of whole blood used in step 1. Resuspend by vortexing briefly. (i.e., 2 mL Buffer EL for 1 mL whole blood)
+
+6. Centrifuge at 400 *g* 10 min at 4 °C.
+
+7. Remove supernatant completely.
+    
+
+## Sample lysis
+
+1. Add Buffer RLT (w/ DTT) to the pelleted leukocytes accordingly
+
+
+
