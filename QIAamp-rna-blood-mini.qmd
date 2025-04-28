@@ -8,57 +8,93 @@ date: "`r Sys.Date()`"
 
 Simplified protocol for QIAamp RNA Blood Mini kit
 
-----
+------------------------------------------------------------------------
 
 # Materials
 
-- QIAamp Spin Columns (clear)  
-- QIAshredder Spin Columns (lilac)  
-- Collection Tubes (1.5 ml)  
-- Collection Tubes (2 ml)  
-- Buffer EL
-- Buffer RLT
-- Buffer RW1
-- Buffer RPE[^before 1st use: add 4 volumes of 96-100% ethanol to make a working solution]
-- RNase-free Water 
+-   QIAamp Spin Columns (clear)\
+-   QIAshredder Spin Columns (lilac)\
+-   Collection Tubes (1.5 ml)\
+-   Collection Tubes (2 ml)\
+-   Buffer EL
+-   Buffer RLT
+-   Buffer RW1
+-   Buffer RPE\[\^before 1st use: add 4 volumes of 96-100% ethanol to make a working solution\]
+-   RNase-free Water
 
 # Equipments
-- Centrifuge (for 14 mL / 50 mL tubes, with cooling)
-- Primary TC hood 
-\newpage
 
-# notes
-- A maximum of 1 x 10^7^ leukocytes can be processed on a QIAamp spin column. 
+-   Centrifuge (for 14 mL / 50 mL tubes, with cooling)
+-   Primary TC hood \newpage
 
+# Notes
+
+-   A maximum of 1 x 10^7^ leukocytes can be processed on a QIAamp spin column.
 
 # Preparation
-- Add 20 uL of 2 M dithiothreitol (DTT) per 1 mL Buffer RLT before use
 
-
+-   Add 20 uL of 2 M dithiothreitol (DTT) per 1 mL Buffer RLT before use
+- Prepare 70% ethanol with nuclease-free water 
 
 # Procedure
+
 ## Erythrocyte lysis
 
 > Process in primary TC room (or designated location for clinical samples)
 
-1. Mix 1 volume of whole blood with 5 volumes of Buffer EL. (i.e., 1 mL whole blood + 5 mL Buffer EL, mix in 14 mL tube)
+1.  Mix 1 volume of whole blood with 5 volumes of Buffer EL. (i.e., 1 mL whole blood + 5 mL Buffer EL, mix in 14 mL tube)
 
-2. Incubate 10-15 min on ice. Vortex briefly 2 times during incubation.
+2.  Incubate 10-15 min on ice. Vortex briefly 2 times during incubation.
 
-3. Centrifuge at 400 *g* 10 min at 4 °C.
+3.  Centrifuge at 400 *g* 10 min at 4 °C.
 
-4. Remove supernatant completely. 
+4.  Remove supernatant completely.
 
-5. Add 2 volumes Buffer EL per volume of whole blood used in step 1. Resuspend by vortexing briefly. (i.e., 2 mL Buffer EL for 1 mL whole blood)
+5.  Add 2 volumes Buffer EL per volume of whole blood used in step 1. Resuspend by vortexing briefly. (i.e., 2 mL Buffer EL for 1 mL whole blood)
 
-6. Centrifuge at 400 *g* 10 min at 4 °C.
+6.  Centrifuge at 400 *g* 10 min at 4 °C.
 
-7. Remove supernatant completely.
-    
+7.  Remove supernatant completely.
 
-## Sample lysis
+## Leukocyte lysis and RNA extraction
 
-1. Add Buffer RLT (w/ DTT) to the pelleted leukocytes accordingly
+1.  Add Buffer RLT (w/ DTT) to the pelleted leukocytes accordingly. Vortex or pipet to mix.
 
+| Buffer RLT (uL) | Whole blood (mL) | no. of leukocytes  |     |
+|-----------------|------------------|--------------------|-----|
+| 350             | Up to 0.5        | Up to 2x10^6^      |     |
+| 600             | 0.5 to 1.5       | 2x10^6^ to 1x10^7^ |     |
+
+(i.e., 600 uL Buffer RLT for 1 mL whole blood)
+
+2.  Transfer lysate into a QIAshredder spin column in a 2 mL collection tube.\[\^if too viscous to pipet, divide the sample into two aliquots, with each aliquot adjusted to 600 uL with Buffer RLT. Continue the steps using 2 QIAshredder and 2 QIAamp spin columns.\]
+
+3.  Centrifuge for 2 min at max speed.
+
+4.  Discard QIAshredder spin column and **save the homogenized lysate**.
+
+5.  Add 1 volume (350 uL or 600 uL) of 70% ethanol to the homogenized lysate. Mix by pipetting.\[\^precipitates may form, it will not affect.\] (i.e., 600 uL 70% ethanol to 600 uL lysate)
+
+6.  Carefully transfer the sample (including precipitate if there is any) into a new QIAamp spin column in a 2 mL collection tube without moistening the rim. Maximun loading is 700 uL. (i.e., Repeat this step and next, load 600 uL each time for 2 rounds.)
+
+7.  Centrifuge for 15 s at ≥ 8000 *g* (≥ 10,000 rpm). Discard flow-through and collection tube.
+
+8.  Place the QIAamp spin column in a new 2 mL collection tube. Add 700 uL Buffer RW1.
+
+9.  Centrifuge for 15 s at ≥ 8000 *g* (≥ 10,000 rpm). Discard flow-through and collection tube.
+
+10. Place the QIAamp spin column in a new 2 mL collection tube. Add 500 uL Buffer RPE\[\^ensure ethanol is added to Buffer RPE\].
+
+11. Centrifuge for 15 s at ≥ 8000 *g* (≥ 10,000 rpm). Discard flow-through and collection tube.
+
+12. Place the QIAamp spin column in a new 2 mL collection tube. Add 500 uL Buffer RPE\[\^ensure ethanol is added to Buffer RPE\].
+
+13. Centrifuge for 3 min at ≥ 8000 *g* (≥ 10,000 rpm). Discard flow-through and collection tube.
+
+14. Place the QIAamp spin column in a new 2 mL collection tube. Centrifuge for 3 min at full speed.
+
+15. Transfer QIAamp spin column into a 1.5 mL nuclease-free microcentrifuge tube. Pipet 15 uL of RNase-free water (provided) directly onto the QIAamp membrane. Centrifuge for 1min at ≥8000 x g (≥10,000 rpm) to elute.
+
+16. Repeat previous step.
 
 
