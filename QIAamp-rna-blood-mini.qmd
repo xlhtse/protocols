@@ -1,5 +1,5 @@
 ---
-title: "Lentivirus production and transduction"
+title: "QIAamp RNA blood mini"
 format: html
 editor: visual
 author: Carrie Tse
