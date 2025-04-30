@@ -77,7 +77,7 @@ high levels of RNase.
 
 3. Centrifuge for 10 min at 12,000 *g* at 4°C.[^Total RNA precipitate forms a white gel-like pellet at the bottom of the tube.]
 
-4. Discard supernatant with a micropipettor.
+4. Transfer supernatant to another tube, keep until precipitation succeed. # CHECK what to do if no RNA pellet
 
 ### Washing 
 
