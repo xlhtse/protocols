@@ -5,38 +5,28 @@ editor: visual
 author: Carrie Tse
 date: "`r Sys.Date()`"
 ---
-
 # Lentivirus production
 
 ## Materials
 
--   lentiviral expression plasmids[^1]
--   lentiviral packaging plasmids
-    -   [pMDLg/pRRE](https://www.addgene.org/12251/) (Gag and Pol) and [pRSV-REV](https://www.addgene.org/12253/) (Rev)
-    -   or [psPAX2](https://www.addgene.org/12260/) (Used by 2020-Ng-Church & 2023-Joung-Zhang)
--   lentiviral envelope plasmid [pMD2.G](https://www.addgene.org/12259/)
--   293T / 293FT cells
--   T75 tissue culture flasks
--   10-cm tissue culture plates
--   15- and 50-ml conical centrifuge tubes, sterile
--   0.45-mM PVDF/PES filter
--   0.22 μm pore size filters units
+- Plasmids
+  - lentiviral packaging plasmid [psPAX2](https://www.addgene.org/12260/) (encoding HIV-1 Gag, Pol, Tat and Rev proteins)
+  - lentiviral envelope plasmid [pMD2.G](https://www.addgene.org/12259/) (encoding the VSV G envelope protein)
+  - lentiviral expression plasmids (MORF)
+- 293T/293FT cells 
+- DMEM, high glucose, GlutaMAX Supplement, pyruvate (cat. 10569010)
+- Opti-MEM™ I Reduced Serum Medium (OptiMEM) (cat.)
+- FBS
+- PBS
+- 0.05% trypsin/EDTA
+- tissue culture flasks/dishes
+- PEG solution (BioCat, K904-50-BV)
+- Lipofectamine 3000 Transfection Reagent (cat. L3000015)
+- 15- and 50-ml conical centrifuge tubes, sterile
+- 0.45-mM PVDF/PES filter
+- 0.22 μm pore size filters units
 
-[^1]: For [TFome library](https://www.addgene.org/browse/article/25106/),[pLIX_403](https://www.addgene.org/41395/) plasmid backbone with inducible dox-on expression system, 3rd generation lentivirus system
-
-## Reagents
-
--   PEI (or Lipofectamine 3000)
--   25 mM chloroquine (if use PEI for transfection)
--   Dulbecco’s modified Eagle medium (DMEM)
--   Opti-MEM™ I Reduced Serum Medium (OptiMEM)
--   FBS^[FBS can be purchased already heat inactivated or it can be inactivated in the lab by heating to 56°C for 30 min]
--   Trypsin/EDTA (e.g., Invitrogen)
--   TE buffer, pH 8.0
--   PBS
--   PEG solution (BioCat, K904-50-BV)
-
-## Equipments
+### Equipments
 
 -   Ultraentrifuge (50,000 × g)
 -   TC incubator (humidified, 37°C, 5% CO~2~)
@@ -44,168 +34,77 @@ date: "`r Sys.Date()`"
 ## NOTE
 
 -   All solutions and equipment coming into contact with living cells must be sterile, and proper aseptic technique should be used accordingly.
-
+-   All medium should be pre-warmed to 37°C.
 -   All culture incubations should be performed in a humidified, 37°C, 5% CO~2~ incubator unless otherwise specified.
+-   Do not add pen-strep to the medium.
+-   All liquid waste should be treated with 10% bleach prior to disposal.
 
--   Do not add pen-strep to the media.
+# Transfection
 
--   Endotoxins can inhibit transfection; therefore, plasmid DNA purification should include an endotoxin removal step. For high quality plasmid DNA, the plasmids should also be propagated in an endonuclease negative E. coli strain such as NEB stable.
+**For T25 flask ([Scale the values depending on the cell culture vessel used](#scale))**
 
-## Preparation
+### Preparation
 
-**DMEM Complete**
+1. Complete culturing medium: DMEM, GlutaMAX Supplement, pyruvate, 10% FBS
+2. Lentivirus packaging medium: 
+    - 474 mL OptiMEM I Reduced Serum Medium, GlutaMAX Supplement
+    - 25 mL FBS
+    - 1 mL sodium pyruvate (100 mM)
 
-Add 10% v/v FBS and 4 mM L-alanyl-L-glutamine (or stable alternative, such as glutaGRO) into DMEM.
+### Day 1 (afternoon): cell seeding 
+1. Seed 293T cells onto 6-well plate at 70-80% confluency. ~1.2 x 10^6^ cells per well in 2 mL of lentivirus packaging medium.
+2. Incubate cells overnight at 37°C, 5% CO~2~.
 
-**Lentivirus packaging medium**
+### Day 2 (morning): transfection
+1. Prepare Tube A: 625 uL OptiMEM I Reduced Serum Medium, 15 uL P3000 Enhancer Reagent, 1.7 ug pMD2.G, 2.6 ug psPAX2, 7.7 ug expression plasmid.
+2. Prepare Tube B: 625 uL OptiMEM I Reduced Serum Medium, 17.5 uL Lipofectamine 3000^[Lipofectamine 3000 should be used within 15 min of dilution.].
+3. Mix Tube A and B. Incubate for 10-20 min at room temperature.
+4. Prior to adding mixture, 1 mL of medium from each well, leaving a total of 1 mL in each well.
+5. Add 500 uL of lipid-DNA complex to each well, avoid disrupting cells. Gently agitate plate to evenly distribute.   
+6. Incubate plate for 6 hours at 37°C, 5% CO~2~.
+7. At 6 hours post-transfection, change plate medium with 2 mL of lentivirus packaging medium.
+8. Return plate to incubator, incubate overnight at 37°C, 5% CO~2~.
 
-Add 25 mL FBS, 1 mL sodium pyruvate (100mM) into 474 mL of OptiMEM
+> Recommended start time: 10 am, medium replacing time: 4 pm.
 
-**PEI (1 mg/mL stock)**
+### Day 4 (morning): harvest of virus
 
-1.  Dissolve 100 mg of powder in 100 mL of deionized water.
-2.  While stirring, slowly add hydrochloric acid until the solution clears.
-3.  Check the pH of the solution.
-4.  Use hydrochloric acid or sodium hydroxide to adjust the pH to 7.0.[^3]
-5.  Allow the solution to mix for 10 min and then recheck the pH to ensure that it has not drifted.
-6.  Filter the solution through a 0.22 μm membrane.
-7.  Aliquot 500–1000 μL into sterile tubes.
-8.  Store the tubes at -20 °C or -80 °C.
+1. At 48 h post-transfection, collect 2 mL cell supernatant from each well.
+2. Filter with a 0.45 um PVDF filter, aliquote and store at -80°C.
 
-[^3]: Typically, the solution will be basic and will need adjustment with hydrochloric acid first
 
-*After thawing, the solution can be stored at 4 °C for up to 2 months. After 2 months, discard the tube and thaw a new working stock.*
 
-*The optimal mass DNA:mass PEI ratio will need to be empirically determined for each new batch of 1 mg/mL PEI and for each cell line.*
+# Transduction
 
-\newpage
 
-## Procedure
 
-### Maintenance of 293T cells
 
-Maintain 293T cells in DMEM Complete in T75 flask / 10-cm dish. Split at a ratio of 1/10 using trypsin/EDTA, twice a week.[^4]
+# References
+[2006-Salmon-Trono](https://doi.org/10.1002/0471142301.ns0421s37)\
+[2023-Joung-Zhang](https://doi.org/10.1016/j.cell.2022.11.026)\
+[Improve lentiviral production using
+Lipofectamine 3000 reagent](https://content.protocols.io/files/eg26biprp.pdf)\
 
+# Scale
 
-[^4]: Do not use 293T cells that are in culture for more than 15 passages
+| Cell_culture_vessel                       | T225  | T175  | T75   | T25  | 10-cm | 6-cm | 6-well |
+|----------------------------------|-------|-------|-------|------|-------|------|--------|
+| Surface area (cm²)               | 225   | 175   | 75    | 25   | 55.68 | 21.12 | 9.6    |
+| **Seeding**                       |       |       |       |      |       |      |        |
+| Lentivirus packaging medium (mL)              | 48    | 37    | 16    | 5.3  | 12    | 4    | 2      |
+| Cells (cells)                    | 2.85E+07 | 2.21E+07 | 9.50E+06 | 3.17E+06 | 7.00E+06 | 2.60E+06 | 1.20E+06 |
+| Seeding density (cells/mL)       | 5.99E+05 | 5.97E+05 | 5.94E+05 | 5.97E+05 | 5.83E+05 | 6.50E+05 | 6.00E+05 |
+| **Tube A**                       |       |       |       |      |       |      |        |
+| P3000 Enhancer (µL)              | 135   | 105   | 45    | 15   | 35    | 13   | 6      |
+| OptiMEM only (µL)                | 5625  | 4600  | 2000  | 625  | 1500  | 500  | 250    |
+| pMD2.G (µg)                      | 15.3     | 11.9     | 5.1      | 1.7      | 3.8     | 1.4    | 0.7    |
+| psPAX (µg)                       | 23.4     | 18.2     | 7.8      | 2.6      | 5.8     | 2.2    | 1.0    |
+| Target plasmid (MORF) (µg)       | 30.6     | 23.8     | 10.2     | 3.4      | 7.6     | 2.9    | 1.3    |
+| **Tube B**                       |       |       |       |      |       |      |        |
+| OptiMEM only (µL)                | 5625  | 4600  | 2000  | 625  | 1500  | 500  | 250    |
+| Lipofectamine 3000 (µL)          | 165   | 129   | 55    | 17.5 | 41    | 15   | 7      |
 
-### Transfection
-#### by PEI 
-
-1. Seed 2.5 $\times$ 10^6^ cells/10-cm dish the day before the transfection. Cells should be \~80% confluent on the day of transfection.
-
-2. For each 10-cm plate, prepare 500 µL pDNA-OptiMEM mixture
-
--   10 µg pDNA in OptiMEM that contains
-
-```{r echo = FALSE, results='asis', error=FALSE, message=FALSE, warning=FALSE}
-library(knitr)
-library(kableExtra)
-
-vector <- data.frame(
-  Vector_type = c("Envelope", "Packing", "Rev", "Transfer vector"),
-  Vectors = c("pMD2G, 1 eq", "pMDLg/pRRE, 1 eq", "pRSV-Rev, 1 eq", "pXXX, 2 eq")
-)
-
-kable(vector) %>%
-    kableExtra::footnote(general = "eq = molar equivalents") %>%
-  kable_styling(bootstrap_options = c("striped","hover", "condensed"))
-```
-
-4.  Prepare 500 µL PEI-OptiMEM mixture (30 μL 1 mg/mL PEI in 470 μL OptiMEM) such that the ratio of μg DNA:μg PEI is 1:3.[^5]
-
-5.  Add the diluted PEI dropwise while gently flicking the diluted DNA tube. Incubate the mixture 12–15 min at RT.
-
-6.  During the incubation, prepare 10 mL of DMEM Complete with 25 uM of chloroquine (final working conc.).
-
-7.  After the incubation, add the DNA:PEI mix to the DMEM-chloroquine and mix well.
-
-8.  Remove media out of the previously seeded 10 cm plate.
-
-9.  Slowly pipette the transfection mix onto the 10 cm plate, being careful not to disturb the cells.
-
-10. Incubate the cells for 18 h, or until the following morning.
-
-11. Carefully aspirate the media. Replace the media with 10 mL of DMEM Complete or OptiMEM.
-
-[^5]: Optimized ratio needs to be empirically determined
-
-#### by Lipofectamine 3000[^6]
-
-[^6]: [2023-Joung-Zhang](https://doi.org/10.1016/j.cell.2022.11.026)
-
-1.  Seed cells into a T75 flask, 9.5 x 10^6^ cells per flask in 16 mL of lentivirus packaging medium.
-
-2.  For each T75 flask, prepare Tube A and Tube B as described below: 
-
-```{r echo = FALSE, results='asis', error=FALSE, message=FALSE, warning=FALSE}
-
-library(knitr)
-library(kableExtra)
-
-vector <- data.frame(
-  Component = c("**Tube A**", "OptiMEM", "Lipofectamine 3000", "**Tube B**", "OptiMEM", "P3000 Enhancer", "psPAX2", "pMD2.5G", "pXXX"),
-  
-  Volume = c(" ", "2 mL", "52.5 µL", " ", "2 mL", "45 µL", "7.8 µg", "5.1 µg", "10.2 µg")
-)
-
-kbl(vector) %>% 
-  kableExtra::footnote(general = "Tube A should be used within 15 min. Longer times can result in a loss of transfection efficiency.") %>% 
-  kable_styling(bootstrap_options = c("striped","hover", "condensed"))
-
-```
-
-3. Transfer contents of Tube A to Tube B and mix well.
-
-4. Incubate the mixture at room temperature for 10-20 min
-
-5. Remove 8 mL medium from the flask
-
-6. Add 4 mL lipid-DNA mixture to the flask carefully avoid disturbing cells. Gently agitate the flask to allow even distribution. 
-
-7. Incubate for 6 h at 37°C, 5% CO^2^.
-
-8. Change medium 6 h after transfection.
-
-### Harvest
-
-12. Virus can be harvested at 48 and 72 h post transfection in individual harvests or a combined harvest where all are pooled.[^7]
-
-13. Centrifuge the viral supernatant at 2,100 × g for 5 min to pellet any packaging cells collected.
-
-14. Filter supernatant through a 0.45 μm PES/PVDF filter.
-
-15. For concentrating vector stocks:
-
-[^7]: If pooling harvests, transfer the harvested media to a polypropylene storage tube and store at 4 °C between harvests.
-
-**by PEG** - Precipitate at 4°C overnight using PEG solution (BioCat, K904-50-BV). The lentiviral particles are then resuspended with PBS in 1/100 of the supernatant volume (100× concentrated).
-
-**by Ultracentrifuge**
-
--   For each pooled supernatant, pipet 4 mL of 20% sucrose into the bottom of a 30 mL Beckman Konical tube.
-
--   Very slowly pour the supernatant from step 14 onto the surface of the sucrose cushion until the tube is full (allow a 2-mm dry zone to the top of the tube).
-
--   Ultracentrifuge 120 min at 50,000 × g, 16°C.
-
--   Gently discard the supernatant by inversion.
-
--   Let the tube dry inverted for 5 min.
-
--   Resuspend the pellet (not always visible) with DMEM by pipetting up and down 50 times.
-
-    -   serum-free medium, such as CellGro, if subsequent experiments require the absence of serum.
-
-    -   or PBS containing Ca^2+^ and Mg^2+^ if subsequent experiments require the absence of protein.
-
-**by Amicon Ultra Centrifugal Filters**
-
--   Transfer viral supernatnat to Amicon Filter and spin filter in tabletop centrifuge at 3000 rpm for 10-20 min at 4°C.
-
--   Concentrated virus can be aliquoted and stored at -80°C. Thaw an aliquot on ice before use; do not refreeze.
-
-16. The viral supernatant can be stored at 4°C for several hours, but should be aliquoted (50 µL in 1.5 mL screw-cap tubes) and snap frozen in liquid nitrogen and stored at -80 °C as soon as possible to avoid loss of titer.
+[Back to Transfection](#transfection)
 
 # Titration
 
